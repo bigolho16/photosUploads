@@ -1,0 +1,1 @@
+coluna 'iddiversity' DELETADO DA TABELA 'grupos' do banco upimgproducts

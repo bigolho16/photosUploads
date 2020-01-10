@@ -1,0 +1,14 @@
+.trs-datas td {
+    border: 0.1px solid #cecece;
+    padding: 10px;
+
+}
+
+/* 
+    estilo p/ marcar produto que acabou de ser inserido na tabela
+*/
+.path {
+    background-color: rgb(26, 170, 26);
+    color: white;
+    
+}

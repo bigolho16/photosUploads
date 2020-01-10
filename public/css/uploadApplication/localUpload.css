@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+.tds {
+    font-family: courier,arial,helvetica;
+    border:0.1px solid #f1f1f1;
+    padding-bottom: 20px;
+
+}
+#msgErrosThisForm{
+    color: blue;
+}
+.avisos-span {
+    font-size:12px;
+    color:blue;
+}
+.first { border: 0.1px solid #f1f1f1;  }
+
+.sec-form {
+    /* border: 0.1px solid #f1f1f1; */
+    padding:10px;
+    margin-top: 15pt;
+
+}
+.sec-form table {
+    width: 100%;
+    
+}
+.sec-table {
+    text-align: center;
+}
+
+.btn {
+    border: 0px solid transparent;
+    padding-top: 35pt;
+
+}
+.btn input {
+    padding-bottom: 20pt;
+    padding-right: 20pt;
+    padding: 5pt;
+    text-align: center;
+    background-color: #2270a8;
+    color: white;
+    border: none;
+
+}
+
+/* .case-prod {
+     text-align: center; 
+
+} */
+
+.indentifyMethods {
+    background-color: #f1f1f1;
+    box-shadow: 1px 1px 2px #2270a8;
+    padding: 5px;
+
+}
+
+.group-brand {
+    background-color: #f1943d;
+    color: white;
+    border: none;
+    padding-bottom: 20pt;
+    padding-right: 20pt;
+    padding: 5pt;
+    text-align: center;
+
+}
+.group-brand-alert {background-color: red; box-shadow: 1px 1px 2px red;}
