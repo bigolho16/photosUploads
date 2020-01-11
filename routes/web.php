@@ -16,7 +16,10 @@ Route::group(["namespace" => "RoutesController"], function () {
 });
 
 //Route::middleware("auth:api", 'throttle:60,1')->group(function () {
-Route::resource("loja/uploadb/validacoes", "Validacoes\ValidateTablesController")->parameters(["validacoes" => "id?"])->middleware("auth");
+Route::group(['namespace' => 'Validacoes'], function () {
+	Route::resource("loja/uploadb/validacoes", "ValidateTablesController")->parameters(["validacoes" => "id?"])->middleware("auth");
+
+});
 
 //});
 // Route::match(["get", "post"], "shippingPlace", "AplicacaoCentral\shippingPlace@mainFormValidate");
